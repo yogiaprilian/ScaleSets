@@ -13,11 +13,11 @@ nano /etc/apache2/apache2.conf
 
 
 #Edit directory root 000.default.conf
-nano /etc/apache2/000-default.conf
+nano /etc/apache2/sites-available/000-default.conf
 
 
 #Edit directory root default-ssl.conf
-
+nano /etc/apache2/sites-available/default-ssl.conf
 
 sudo a2enmod rewrite
 

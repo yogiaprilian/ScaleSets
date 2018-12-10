@@ -13,16 +13,16 @@ sudo apt-get -y install apache2
 
 #move file apache2.conf, 000-default.conf
 
-mv /etc/apache2/apache2.conf /home/erudeye
+sudo mv /etc/apache2/apache2.conf /home/erudeye
 
-mv /etc/apache2/sites-available/000-default.conf /home/erudeye
+sudo mv /etc/apache2/sites-available/000-default.conf /home/erudeye
 
-#Edit directory root Apache2.conf
-wget https://raw.githubusercontent.com/yogiaprilian/ScaleSets-Test/master/apache2.conf
+#download apache.conf
+sudo get https://raw.githubusercontent.com/yogiaprilian/ScaleSets-Test/master/apache2.conf -P /etc/apache2
 
 
-#Edit directory root 000.default.conf
-wget https://raw.githubusercontent.com/yogiaprilian/ScaleSets-Test/master/000-default.conf
+#download 000-default.conf
+wget https://raw.githubusercontent.com/yogiaprilian/ScaleSets-Test/master/000-default.conf -P /etc/apache2/sites-available/
 
 
 sudo a2enmod rewrite

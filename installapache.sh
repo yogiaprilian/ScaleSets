@@ -13,11 +13,11 @@ sudo apt-get -y install apache2
 
 
 #Edit directory root Apache2.conf
-nano /etc/apache2/apache2.conf
+https://raw.githubusercontent.com/yogiaprilian/ScaleSets-Test/master/apache2.conf
 
 
 #Edit directory root 000.default.conf
-nano /etc/apache2/sites-available/000-default.conf
+https://raw.githubusercontent.com/yogiaprilian/ScaleSets-Test/master/000-default.conf
 
 
 sudo a2enmod rewrite

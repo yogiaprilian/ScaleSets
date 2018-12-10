@@ -17,6 +17,7 @@ sudo mv /etc/apache2/apache2.conf /home/erudeye
 
 sudo mv /etc/apache2/sites-available/000-default.conf /home/erudeye
 
+
 #download apache.conf
 sudo get https://raw.githubusercontent.com/yogiaprilian/ScaleSets-Test/master/apache2.conf -P /etc/apache2
 

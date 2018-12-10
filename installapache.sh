@@ -1,10 +1,14 @@
 #install PHP
+sudo apt update
+
 sudo apt install php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
 
 apt-get install php libapache2-mod-php
 
 
 #install apache2
+sudo apt update 
+
 sudo apt install apache2
 
 

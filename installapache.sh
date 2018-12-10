@@ -31,10 +31,13 @@ sudo a2enmod rewrite
 sudo apache2ctl configtest
 
 
+echo "<?php phpinfo(); ?>" >> /home/erudeye/nfs/website/info.php
+
+
 sudo systemctl restart apache2
 
 
-echo "<?php phpinfo(); ?>" >> /home/erudeye/nfs/website/info.php
+
 
 
 

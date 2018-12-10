@@ -1,6 +1,6 @@
 #Edit Direcroty Apache2
 
-#Directory /var/www/html
+#Directory /var/www/html change /folder-repository-new
 
 <Directory />
         Options FollowSymLinks

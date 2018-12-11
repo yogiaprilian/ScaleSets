@@ -1,7 +1,7 @@
 #install nfs client
 sudo apt update 
 
-sudo apt-get -y nfs-common
+sudo apt-get -y install nfs-common
 
 #buat folder mount
 sudo mkdir -p /home/erudeye/nfs/website

@@ -19,17 +19,11 @@ sudo mv /etc/apache2/sites-available/000-default.conf /home/erudeye
 
 
 #download apache.conf
-sudo get https://raw.githubusercontent.com/yogiaprilian/ScaleSets-Test/master/apache2.conf -P /etc/apache2
+sudo wget https://raw.githubusercontent.com/yogiaprilian/ScaleSets-Test/master/apache2.conf -P /etc/apache2
 
 
 #download 000-default.conf
-wget https://raw.githubusercontent.com/yogiaprilian/ScaleSets-Test/master/000-default.conf -P /etc/apache2/sites-available/
-
-
-sudo a2enmod rewrite
-
-
-sudo apache2ctl configtest
+sudo wget https://raw.githubusercontent.com/yogiaprilian/ScaleSets-Test/master/000-default.conf -P /etc/apache2/sites-available
 
 
 echo "<?php phpinfo(); ?>" >> /home/erudeye/nfs/website/info.php

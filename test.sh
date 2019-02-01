@@ -9,3 +9,5 @@ sudo mkdir /home/yogi/folderbaru
 sudo mkdir /home/yogi/folderjumat
 
 sudo mkdir /home/yogi/folderdata
+
+sudo mkdir /home/yogi/folderdata2

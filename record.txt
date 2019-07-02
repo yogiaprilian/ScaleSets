@@ -1,0 +1,2 @@
+Name Type TTL Value
+@ A 3600 10.10.10.10
